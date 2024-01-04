@@ -1,5 +1,6 @@
 # TMT-VIS: Taxonomy-aware Multi-dataset Joint Training for Video Instance Segmentation (NeurIPS 23)
 [Rongkun Zheng](https://rkzheng99.github.io), [Lu Qi](http://luqi.info/), [Xi Chen](https://xavierchen34.github.io/), [Yi Wang](https://shepnerd.github.io/), Kun Wang, [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=zh-CN&oi=ao), [Hengshuang Zhao*](https://hszhao.github.io/)
+
 [[paper]](https://arxiv.org/abs/2312.06630)
 ![image](https://github.com/rkzheng99/TMT-VIS/blob/main/img/model.png)
 
