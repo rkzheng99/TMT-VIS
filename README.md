@@ -15,11 +15,11 @@ Training on large-scale datasets can boost the performance of video instance seg
 
 ## Citation
 If you find this work is useful for your research, please cite our papers:
-···
+```
 @inproceedings{zheng2023tmtvis,
   title={{TMT}-{VIS}: Taxonomy-aware Multi-dataset Joint Training for Video Instance Segmentation},
   author={Rongkun, Zheng and Lu, Qi and Xi, Chen and Yi, Wang and Kun, Wang and Yu, Qiao, and Hengshuang, Zhao},
   booktitle={NeurIPS},
   year={2023}
 }
-···
+```
