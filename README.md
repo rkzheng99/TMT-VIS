@@ -13,7 +13,7 @@ Training on large-scale datasets can boost the performance of video instance seg
 ## Experimental Results
 ### Youtube-VIS 2019
 | Method          | Backbone | AP   | AP<sub>50</sub> | AP<sub>75</sub> |
-|-----------------|----------|------|---------|---------|
+|:---------------:|----------|------|---------|---------|
 | Mask2Former-VIS | Swin-L   | 60.4 | 84.4    | 67.0    |
 | VITA            | Swin-L   | 63.0 | 86.9    | 67.9    |
 | IDOL            | Swin-L   | 64.3 | 87.5    | 71.0    |
