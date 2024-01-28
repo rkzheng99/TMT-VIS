@@ -51,5 +51,6 @@ If you find this work is useful for your research, please cite our papers:
 ```
 ## Acknowledgement
 This work is partially supported by the National Natural Science Foundation of China (No. 62201484), National Key R&D Program of China (No. 2022ZD0160100), HKU Startup Fund, and HKU Seed Fund for Basic Research.
+
 This repo is largely based on [Mask2Former](https://github.com/facebookresearch/Mask2Former), and [VITA](https://github.com/sukjunhwang/VITA).Thanks for their excellent works.
 
