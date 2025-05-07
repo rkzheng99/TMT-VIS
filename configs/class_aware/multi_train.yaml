@@ -1,9 +1,9 @@
 _BASE_: Base-YouTubeVIS-VideoInstanceSegmentation.yaml
 MODEL:
-  WEIGHTS: "/mnt/petrelfs/zrknew/zhengrongkun/VITA/vita_r50_coco.pth"
-  # WEIGHTS: "/mnt/petrelfs/zrknew/zhengrongkun/temp/VITA/output1/coco_full_video_10epoch/model_final.pth"
+  WEIGHTS: "/mnt/petrelfs/tmt/tmt_r50_coco.pth"
+  # WEIGHTS: "/mnt/petrelfs/temp/tmt/output1/coco_full_video_10epoch/model_final.pth"
   # WEIGHTS: "output1/coco_full_video_10epoch_imagenetpretrain/model_final.pth"
-  META_ARCHITECTURE: "Vita"
+  META_ARCHITECTURE: "tmt"
   MASK_ON: True
   SEM_SEG_HEAD:
     NAME: "MaskFormerHead"
@@ -20,7 +20,7 @@ MODEL:
     COMMON_STRIDE: 4
     TRANSFORMER_ENC_LAYERS: 6
   MASK_FORMER:
-    TRANSFORMER_DECODER_NAME: "VitaMultiScaleMaskedTransformerDecoder"
+    TRANSFORMER_DECODER_NAME: "tmtMultiScaleMaskedTransformerDecoder"
     TRANSFORMER_IN_FEATURE: "multi_scale_pixel_decoder"
     DEEP_SUPERVISION: True
     NO_OBJECT_WEIGHT: 0.1
@@ -46,7 +46,7 @@ MODEL:
       PANOPTIC_ON: False
       OVERLAP_THRESHOLD: 0.8
       OBJECT_MASK_THRESHOLD: 0.8
-  VITA:
+  tmt:
     ENC_WINDOW_SIZE: 6
     SIM_WEIGHT: 0.5
 DATASETS:

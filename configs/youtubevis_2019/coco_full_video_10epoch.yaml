@@ -1,7 +1,7 @@
 _BASE_: Base-YouTubeVIS-VideoInstanceSegmentation.yaml
 MODEL:
-  #WEIGHTS: "/mnt/petrelfs/zrknew/zhengrongkun/VITA/vita_r50_coco.pth"
-  WEIGHTS: "/mnt/petrelfs/zrknew/zhengrongkun/MaskFormer/Mask2Former-main-video/R-50.pkl"
+  #WEIGHTS: "/mnt/petrelfs/VITA/vita_r50_coco.pth"
+  WEIGHTS: "/mnt/petrelfs/MaskFormer/Mask2Former-main-video/R-50.pkl"
   META_ARCHITECTURE: "Vita"
   MASK_ON: True
   SEM_SEG_HEAD:

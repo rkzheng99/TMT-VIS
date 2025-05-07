@@ -41,14 +41,14 @@ from detectron2.utils.logger import setup_logger
 
 # MaskFormer
 from mask2former import add_maskformer2_config
-from vita import (
+from tmt import (
     YTVISDatasetMapper,
     CocoClipDatasetMapper,
     YTVISEvaluator,
     build_combined_loader,
     build_detection_train_loader,
     build_detection_test_loader,
-    add_vita_config,
+    add_tmt_config,
 )
 
 
@@ -279,7 +279,7 @@ def setup(args):
     # for poly lr schedule
     add_deeplab_config(cfg)
     add_maskformer2_config(cfg)
-    add_vita_config(cfg)
+    add_tmt_config(cfg)
     cfg.merge_from_file(args.config_file)
     cfg.merge_from_list(args.opts)
     cfg.freeze()
